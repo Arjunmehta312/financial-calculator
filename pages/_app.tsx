@@ -1,6 +1,9 @@
-import "@/styles/globals.css";
-import type { AppProps } from "next/app";
+import React from 'react';
+import HomePage from '../components/HomePage';
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
-}
+const Home: React.FC = () => {
+  return <HomePage />;
+};
+
+export default Home;
+
